@@ -1,0 +1,64 @@
+#navigation-bar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    font-family: "Berlin Sans FB Demi", serif;
+    font-size: 19px;
+}
+
+#home {
+    width: 170px;
+    background-color: #40409a;
+    font-weight: bold;
+}
+
+.navigation-group > a {
+    display: inline-block;
+    line-height: 56px;
+    height: 56px;
+    width: 170px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation-group > a:hover, #home:hover {
+    background-color: #6e6eb4;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    color: white;
+    margin-left: 15px;
+}
+
+.dropdown-content > a {
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    background-color: #1e0664;
+    min-width: 160px;
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content > a {
+    margin-bottom: 5px;
+    display: block;
+    cursor: pointer;
+}
