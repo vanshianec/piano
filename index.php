@@ -48,7 +48,7 @@
     </div>
   <?php endif; ?>
     <div id="piano">
-        <div id="1" class="key white C"><label>Pesho</label></div>
+        <div id="1" class="key white C"><label>1</label></div>
         <div id="!" class="key black C#"><label>!</label></div>
         <div id="2" class="key white D"><label>2</label></div>
         <div id="@" class="key black D#"><label>@</label></div>
